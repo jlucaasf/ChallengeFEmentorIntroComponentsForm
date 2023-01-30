@@ -1,0 +1,295 @@
+body {
+
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.img-fundo {
+    position: fixed;
+    z-index: -1;
+    max-width: 100vw;
+}
+
+.texto-cabecalho {
+
+    display: flex;
+    padding: 25px 0px;
+    width: 600px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 150px;
+    align-self: center;
+    box-shadow: 0px 10px hsla(0, 0%, 0%, 0.181);
+
+
+}
+
+.try-it {
+    font-weight: 700;
+}
+
+
+.textos {
+    margin-right: 100px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.titulo {
+    font-size: 3rem;
+
+}
+
+.texto-titulo {
+    padding-top: 20px
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box-pai {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0px 40px;
+    margin-top: 30px;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.formulario-red {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0px 40px;
+    margin-top: 30px;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formulario input {
+    border-radius: 5px; 
+    border-color: hsl(246, 25%, 77%);
+    height: 60px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding-inline: 30px;
+    font-size: 1rem;    
+    font-weight: 600;
+}
+
+.formulario-red input {
+    border-radius: 5px; 
+    border-color: hsl(0, 100%, 74%);  
+    height: 60px;    
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    padding-inline: 30px;
+    font-size: 1rem;    
+    font-weight: 600;
+
+}
+
+.formulario-red input::placeholder {
+    color: hsl(0, 100%, 74%);
+}
+
+
+.botao {
+    height: 60px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    box-shadow: 0px 5px hsl(154, 54%, 41%);
+
+}
+
+.botao:hover {
+    background-color: hsl(154, 78%, 65%);
+    cursor: pointer;
+}
+
+.texto-bottom {
+    font-size: .8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+.texto-Agree {
+    color: hsl(246, 25%, 77%);
+    font-weight: 500;
+}
+
+.texto-Terms {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+.erro-nome {
+    position: fixed;
+    width: 1.7rem;
+    margin-top: 85px;
+    margin-left: 220px;
+    
+}
+
+
+
+.erro-sobrenome {
+    position: fixed;
+    width: 1.7rem;
+    padding-top: 165px;
+    margin-left: 220px;
+    
+}
+.erro-email {
+    position: fixed;
+    width: 1.7rem;
+    margin-top: 245px;
+    margin-left: 220px;
+    
+}
+.erro-senha {
+    position: fixed;
+    width: 1.7rem;
+    margin-top: 325px;
+    margin-left: 220px;
+    
+}
+
+.imagemErroOff {
+    visibility: hidden;
+}
+
+.imagemErroOn {
+    visibility: visible;
+}
+
+
+.labelHidden {
+    visibility: hidden;
+}
+
+.labelNome {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 360px;
+    color: hsl(0, 100%, 74%);    
+}
+
+.labelNomeOff {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 360px;
+    color: hsl(0, 100%, 74%);    
+    visibility: hidden;
+}
+
+.labelSobrenome {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 140px;
+    margin-left: 340px;
+    color: hsl(0, 100%, 74%);    
+}
+
+.labelSobrenomeOff {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 140px;
+    margin-left: 340px;
+    color: hsl(0, 100%, 74%);   
+    visibility: hidden; 
+}
+
+.labelEmail {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 380px;
+    color: hsl(0, 100%, 74%);    
+}
+
+.labelEmailOff {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 380px;
+    color: hsl(0, 100%, 74%);    
+    visibility: hidden;
+}
+
+.labelSenha {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 365px;
+    color: hsl(0, 100%, 74%);    
+}
+
+.labelSenhaOff {
+    font-size: .7rem;
+    font-style: italic;
+    display: flex;
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 365px;
+    color: hsl(0, 100%, 74%);    
+    visibility: hidden;
+}
